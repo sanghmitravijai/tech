@@ -1,0 +1,10 @@
+.hidden-container *{display:none;}
+
+.nav_opener:first-child {
+    font-size: 60px;
+}
+
+body{
+ padding: 0px;
+ margin: 0px;
+}
