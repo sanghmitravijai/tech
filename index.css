@@ -1,0 +1,91 @@
+/*---------------------body-started------------------*/
+body {
+    padding: 0px;
+    margin: 0px;
+     background-color: #e9ebee;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Arimo,Arial,sans-serif;
+}
+
+/*----------------------top nav-------------------------------*/
+.top-nav {
+ 
+    background-color: #e9ebee;
+    border-bottom: 1px solid #e9ebee;
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    color: #fff;
+    will-change: transform;
+}
+.mid-nav{
+    background-color: #616161;
+    border-bottom: 1px solid #616161;
+    border-left: 1px solid #a3a3a1;
+    border-right: 1px solid #a3a3a1;
+    height: 55px;
+    margin: auto;
+    width: 80%;
+}
+.logo-div{
+position: absolute;
+width:50px;
+height:50px;
+background: yellow;
+}
+
+div.open-nav {
+    display: none;
+    position: fixed;
+    margin-top: 10px;
+    margin-right: 20px;
+    z-index: 10;
+
+}
+.open-nav >
+@media only screen and (max-width: 600px) {
+
+    div.open-nav{
+        display: block;
+    }
+
+    body {
+        background-color: lightblue;
+        
+    }
+   .top-nav{
+       display: none;
+       width: 60%;
+       height: 300px;
+   }
+   .logo-div{
+       display: none;
+   }
+}
+
+/*------------------------------------Brand Page-----------------------------------*/
+
+div {
+    height: 300px;
+    width:80%;
+    background-color: red;
+    border-bottom: 1px solid #616161;
+    border-left: 1px solid #a3a3a1;
+    border-right: 1px solid #a3a3a1;
+    margin:auto;
+}
+
+/*-------------------------------------col-left----------------------------------*/
+.col-left{
+   
+    background-color: aqua;
+    width:10%;
+    height:200vh;
+    float:left;
+}
+/*-------------------------------------col-right----------------------------------*/
+.col-right{
+    
+}
