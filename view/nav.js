@@ -5,4 +5,5 @@ function openSideBar(){
 }
 function closeSideBar(){
     document.getElementById("sidebar").style.display = "none";
+    document.getElementById("navopener").classList.remove('hidden-container');
 }
