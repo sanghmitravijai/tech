@@ -1,6 +1,5 @@
 /*---------------------body-started------------------*/
 body {
-    padding: 0px;
     margin: 0px;
      background-color: #e9ebee;
     font-weight: 400;
@@ -11,8 +10,7 @@ body {
 
 /*----------------------top nav-------------------------------*/
 .top-nav {
- 
-    background-color: #e9ebee;
+    background-color: #e9ebee; 
     border-bottom: 1px solid #e9ebee;
     width: 100%;
     height: 56px;
@@ -21,13 +19,14 @@ body {
     will-change: transform;
 }
 .mid-nav{
-    background-color: #616161;
+    background-color: #616161; 
     border-bottom: 1px solid #616161;
     border-left: 1px solid #a3a3a1;
     border-right: 1px solid #a3a3a1;
-    height: 55px;
-    margin: auto;
-    width: 80%;
+    position: fixed;
+    height: 56px;
+    margin-left:160px;
+    width: 76%;
 }
 .logo-div{
 position: absolute;
@@ -65,27 +64,137 @@ div.open-nav {
    }
 }
 
-/*------------------------------------Brand Page-----------------------------------*/
-
-div {
-    height: 300px;
-    width:80%;
-    background-color: red;
-    border-bottom: 1px solid #616161;
-    border-left: 1px solid #a3a3a1;
-    border-right: 1px solid #a3a3a1;
-    margin:auto;
-}
-
 /*-------------------------------------col-left----------------------------------*/
 .col-left{
    
-    background-color: aqua;
-    width:10%;
-    height:200vh;
+    background-color: #e9ebee;
+    border-right: 1px solid #e9ebee;
+    width:11%;
+    height:310vh;
+    margin-top: 65px;
     float:left;
 }
+/*------------------------------------Brand Page mid col-----------------------------------*/
+.mid-col{
+    height: 310vh;
+    width: 76%;
+    background-color: #e9ebee;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+    border-bottom: 1px solid #616161;
+    border-left: 1px solid #e9ebee;
+    border-right: 1px solid #e9ebee;
+    margin: auto;
+    margin-left: 11px;
+    margin-top: 65px;
+    float: left;
+}
+div {
+    height: 200px;
+    width:100%;
+    background-color: #e9ebee;
+    border-radius: 2px 2px 0 0;
+  /*  border: 2px solid #dddfe2;
+    border-bottom: 1px solid #616161;
+    border-left: 1px solid #a3a3a1;
+    border-right: 1px solid #a3a3a1;
+    margin:auto;*/
+}
+.row-img{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+    width: 18%;
+    height: 95px;
+    padding: 29px;
+    float: left;
+    border-radius: 2px;
+    margin-top: 7px;
+    margin-left: 9px;
+}
+.brand-link{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+    border: 1px solid #fff;
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: -14px;
+}
+.brand-name h1 b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a4a4a;
+    font-size: 22px;
+    float: left;
+    margin-left: 28px;
+    text-decoration: none;
+}
+.brand-name h1 b:hover{
+    color:red;
+}
+.link1{
+    color: #4b4f56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-left: auto;
+    border-right: 1px solid #365899;
+    padding-right: 10px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.link1:hover{
+    color:#4267b2;
+}
+.link2{
+    color: #4b4f56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-left: 9px;
+    border-right: 1px solid #365899;
+    padding-right: 6px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.link2:hover{
+    color:#4267b2;
+}
+.link3{
+    color: #4b4f56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-left: 9px;
+    border-right: 1px solid #365899;
+    padding-right: 10px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.link3:hover{
+    color:#4267b2;
+}
+.link4{
+    color: #4b4f56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    float: left;
+    margin-left: 0px;
+    border-right: 1px solid #365899;
+    padding-right: 10px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.link4:hover{
+    color:#4267b2;
+}
+
+
 /*-------------------------------------col-right----------------------------------*/
 .col-right{
-    
+    background-color: #e9ebee;
+    border-left: 2px solid #e9ebee;
+    width:11%;
+    height:310vh;
+    margin-top: 65px;
+    float:right;  
 }
